@@ -1,0 +1,20 @@
+{
+  "name": "2fa",
+  "version": "1.0.0",
+  "description": "2fa",
+  "main": "src/main.js",
+  "dependencies": {
+    "express": "^4.17.3",
+    "node-2fa": "^2.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/main.js"
+  },
+  "author": "LDT",
+  "license": "ISC"
+}
